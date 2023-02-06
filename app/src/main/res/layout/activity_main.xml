@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Permission handling"
+        style="@style/TextAppearance.MaterialComponents.Headline4"
+        />
+
+    <com.google.android.material.button.MaterialButton
+
+        android:id="@+id/singlePermissionBtn"
+        android:layout_width="251dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Slingle Request Permission" />
+
+    <com.google.android.material.button.MaterialButton
+
+        android:id="@+id/multiplePermissionBtn"
+        android:layout_width="242dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Multiple Request Permission" />
+
+    <TextView
+        android:id="@+id/resultTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result" />
+
+</LinearLayout>
